@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bower": "./node_modules/bower/bin/bower",
-    "live": "./node_modules/live-server/live-server.js",
+    "live": "node ./node_modules/live-server/live-server.js",
     "pro": "./node_modules/vulcanize/bin/vulcanize lib/lib.html > dist/bundle.html",
     "publish": "npm publish --registry=http://localhost:8081/repository/npm-internal/"
   },
